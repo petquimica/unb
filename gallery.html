@@ -7,8 +7,8 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-    <link rel="stylesheet" href="../static/css/base.css">
-    <link rel="stylesheet" href="../static/css/information.css">
+    <link rel="stylesheet" href="static/css/base.css">
+    <link rel="stylesheet" href="static/css/gallery.css">
   </head>
   <body id="myPage">
     <header>
@@ -24,37 +24,37 @@
           <div class="collapse navbar-collapse" id="myNavbar">
             <ul class="nav navbar-nav navbar-right">
               <li>
-                <a href="../team.html">
+                <a href="./team.html">
                   <span class="glyphicon glyphicon-education"></span>
                   EQUIPE
                 </a>
               </li>
               <li>
-                <a href="../historic.html">
+                <a href="./historic.html">
                   <span class="glyphicon glyphicon-list-alt"></span>
                   HISTÓRICO
                 </a>
               </li>
               <li>
-                <a href="../informations.html">
+                <a href="./informations.html">
                   <span class="glyphicon glyphicon-briefcase"></span>
                   NOTÍCIAS
                 </a>
               </li>
               <li>
-                <a href="../projects.html">
+                <a href="./projects.html">
                   <span class="glyphicon glyphicon-briefcase"></span>
                   PROJETOS
                 </a>
               </li>
               <li>
-                <a href="../reports.html">
+                <a href="./reports.html">
                   <span class="glyphicon glyphicon-save-file"></span>
                   RELATÓRIOS
                 </a>
               </li>
               <li>
-                <a href="../gallery.html">
+                <a href="./gallery.html">
                   <span class="glyphicon glyphicon-picture"></span>
                   FOTOS
                 </a>
@@ -64,32 +64,21 @@
       </nav>
     </header>
     <main>
-      <div class="jumbotron text-center">
-        <h2>NOTÍCIA</h2>
-        <p><a href="../informations.html">Voltar</a></p>
+      <div class="container-fluid text-center">
+        <h2>Galeria de fotos</h2>
       </div>
-
       <div class="container-fluid bg-grey">
-          <div class="col-sm-8 col-sm-offset-2">
-            <h2 class="mobile">PLANEJAMENTO ANUAL 2018</h2>
-            <h4>
-              <p class="text-justify text-muted">
-                Segue abaixo o planejamento anual referente às atividades do grupo PET Química da Universidade de
-                Brasília do ano de 2018.
-              </p>
-            </h4>
-            <div class="row">
-              <div class="col-md-4 mobile pull-right">
-                <a href="https://petqui.files.wordpress.com/2018/02/sigpet-planejamento-anual_2018.pdf"
-                   class="btn btn-success pull-right space mobile block" target="_blank">
-                  <span class="glyphicon glyphicon-link"></span> Arquivos
-                </a>
-              </div>
-              <div class="col-sm-8">
-                <p><span class="glyphicon glyphicon-tags tags"></span> tags: 2018, planejamento_anual</p>
-              </div>
-            </div>
+        <div class="row">
+          <div class="col-sm-3 text-center">
+            <a href="./gallery/gallery01.html">
+              <img
+                src="static/img/image-not-found.png"
+                class="img-responsive gallery-folder img-thumbnail"
+                alt="Imagem da pasta">
+            </a>
+            <p>Título da pasta</p>
           </div>
+        </div>
       </div>
     </main>
     <footer class="container-fluid text-center bg-white">
@@ -106,6 +95,6 @@
     </footer>
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-    <script src="../static/js/base.js"></script>
+    <script src="static/js/base.js"></script>
   </body>
 </html>
