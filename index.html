@@ -1,20 +1,295 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
   <head>
-    <title>Pet Química UnB</title>
+    <title>PET QUÍMICA UnB</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <!-- CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.css">
   </head>
-  <body>
-    <div class="container">
-      <h1>My First Bootstrap Page</h1>
-      <p>This is some text.</p>
-    </div>
+  <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
+    <header>
+      <nav class="navbar navbar-default navbar-fixed-top">
+          <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+              <span class="icon-bar"></span>
+            </button>
+            <a class="navbar-brand" href="#myPage"><span class="glyphicon glyphicon-home"></span> PET QUÍMICA</a>
+          </div>
+          <div class="collapse navbar-collapse" id="myNavbar">
+            <ul class="nav navbar-nav navbar-right">
+              <li>
+                <a href="#about">
+                  <span class="glyphicon glyphicon-education"></span>
+                  SOBRE
+                </a>
+              </li>
+              <li>
+                <a href="#information">
+                  <span class="glyphicon glyphicon-list-alt"></span>
+                  NOTÍCIAS
+                </a>
+              </li>
+              <li>
+                <a href="#project">
+                  <span class="glyphicon glyphicon-briefcase"></span>
+                  PROJETOS
+                </a>
+              </li>
+              <li>
+                <a href="#gallery">
+                  <span class="glyphicon glyphicon-picture"></span>
+                  EXPOSIÇÂO DE FOTOS
+                </a>
+              </li>
+              <li>
+                <a href="#contact">
+                  <span class="glyphicon glyphicon-comment"></span>
+                  CONTATO
+                </a>
+              </li>
+            </ul>
+          </div>
+      </nav>
+    </header>
+    <main>
+      <div class="jumbotron text-center">
+        <h1>PET QUÍMICA IQ/UnB/MEC</h1>
+        <p>Programa de Educação Tutorial do Instituto de Química/ Universidade de Brasília</p>
+        <div class="container-fluid container-fluid-bottom">
+          <div class="col-sm-7 text-right">
+            <img src="img/pet.jpg" class="img-responsive logo" alt="Logo PET">
+          </div>
+          <div class="col-sm-offset-1 col-sm-4 padding-thanks">
+            <h4>
+              Agradecemos a Victor Hugo Arnaud Deon, por sua contribuição a nosso site.
+              <br />Grupo PET-Química
+            </h4>
+          </div>
+        </div>
+      </div>
 
-      <!-- Javascript -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+      <div id="about" class="container-fluid bg-grey">
+        <div class="row">
+          <div class="col-sm-4 text-center">
+            <span class="glyphicon glyphicon-signal logo slideanim"></span>
+          </div>
+          <div class="col-sm-8">
+            <h2>Quem somos</h2><br>
+            <h4 class="text-justify identation">
+              O grupo PET Química é um dos grupos de excelência em atividades acadêmicas, de extensão e
+              pesquisa da Universidade de Brasília, partícipe do Programa de Educação Tutorial do
+              Ministério da Educação
+            </h4>
+            <p class="text-justify identation">
+              Financiado pelo Ministério da Educação, o grupo PET-Química conta com aproximadamente 20
+              alunos de graduação dos cursos de Licenciatura e Bacharelado em Química, Química Tecnológica
+              e Engenharia Química. A tutora, Elaine Rose Maia, doutora em cristalografia de macromoléculas
+              vegetais e especialista em drug design, é professora titular da UnB. O foco do grupo está no
+              incentivo aos alunos pelas Ciências Químicas.
+            </p>
+            <br>
+            <a href="#historic" class="btn btn-default btn-lg" role="button">Breve Histórico</a>
+            <a href="#team" class="btn btn-default btn-lg btn-margin-left" role="button">Conheça nosso time</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- INFORMATION -->
+      <div id="information" class="container-fluid text-center">
+        <h2>NOTÍCIAS</h2>
+        <br>
+        <div class="row slideanim">
+          <div class="col-sm-4">
+            <h4>Vencedores OQDF 2018</h4>
+            <p>
+              O resultado dos vencedores da OQDF 2018 está disponível em: http://brasilia.obquimica.org/ E também está
+              disponível aqui em baixo em "arquivo", mas fique atento a sua modalidade, devido estar em um único arquivo
+              as modalidades A ...
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h4>Gabaritos Oficiais OQDF</h4>
+            <p>
+              Disponibilizamos o gabarito da olimpíada de química do distrito federal OQ-DF, com revisão e recursos
+              deferidos.
+            </p>
+          </div>
+          <div class="col-sm-4">
+            <h4>Processo seletivo</h4>
+            <p>
+              As inscrições para o processo seletivo do PET-Química estarão abertas de 27 de junho a 05 de julho!! Para
+              participar da seleção, basta: - Estar matriculado em um dos Cursos de Bacharelado ou Licenciatura em ...
+            </p>
+          </div>
+        </div>
+        <br><br><a href="#index" class="btn btn-default btn-lg" role="button">Ver mais notícias</a>
+      </div>
+
+      <!-- EVENT -->
+      <hr />
+      <div class="container-fluid text-center">
+        <h2>XI SEMANA DE QUÍMICA</h2>
+        <br>
+        <div class="row slideanim">
+          <div class="col-sm-4 text-center">
+            <a
+              href="pdf/programacaoXI.pdf"
+              class="btn btn-default btn-lg"
+              download="PROGRAMAÇÃO-COMPLETA-DA-X-SEMANA-DE-QUÍMICA-NA-UnB">
+              PROGRAMAÇÃO
+            </a>
+          </div>
+          <div class="col-sm-4 text-center">
+            <a
+              href="pdf/folderXI.pdf"
+              class="btn btn-default btn-lg"
+              download="folder">
+              FOLDER
+            </a>
+          </div>
+          <div class="col-sm-4 text-center">
+            <a
+              href="https://l.facebook.com/l.php?u=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSfI9KPCVU8F8-iuCGTIE7rzf_RAoJn_Sih-l02T4PszRcv_wg%2Fviewform&h=ATPETdMEsWlCnt_Yr39cIx0_LObFAubknKA2fc8w-cAagZ03dpseMRolWMLy4MRTd1CSSiaVhTS80TLRTgQWYd_oPjDcS7SXcW52WTnTA9ONnm0dVL0cIIya9tItYsC2YDC4xUJEZDbvbyuOD7-O_g"
+              class="btn btn-default btn-lg"
+              target="_blank">
+              CADASTRO AQUI
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div id="project" class="container-fluid bg-grey">
+        <div class="row">
+          <div class="col-sm-4 text-center">
+            <span class="glyphicon glyphicon-globe logo slideanim"></span>
+          </div>
+          <div class="col-sm-8">
+            <h2>Projetos</h2><br>
+            <p class="text-justify identation">
+              Os projetos do PET-Química tem como objetivo a melhoria da educação de forma ampla, por meio da
+              tríade ensino, pesquisa e extensão. Além do desenvolvimento pessoal e profissional de seus
+              integrantes, o PET organiza, promove e realiza eventos como a olimpíada de química e a semana da
+              química para a integração e desenvolvimento extracurriculares dos discentes, contando com a
+              participação de empresas, escolas e instituições públicas.
+            </p>
+            <p>Para saber mais sobre os projetos do PET, clique no botão abaixo.</p>
+            <br><br>
+            <a href="#index" class="btn btn-default btn-lg" role="button">Ver projetos</a>
+            <a href="#reports" class="btn btn-default btn-lg btn-margin-left" role="button">Relatórios Anuais</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- GALLERY -->
+      <div id="gallery" class="container-fluid text-center">
+        <h2>EXPOSIÇÕES DE FOTOS</h2><br>
+        <div id="myCarousel" class="text-center carousel slide" data-ride="carousel">
+          <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to=""></li>
+          </ol>
+
+          <div class="carousel-inner" role="listbox">
+            <div class="item active">
+              <img src="img/image-not-found.png"
+                class="img-responsive img-gallery"
+                alt="Imagem não encontrada"
+              />
+            </div>
+            <div class="item">
+              <img src="img/image-not-found.png"
+                class="img-responsive img-gallery"
+                alt="Imagem não encontrada"
+              />
+            </div>
+          </div>
+
+          <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+            <span class="sr-only">Anterior</span>
+          </a>
+          <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Próximo</span>
+          </a>
+        </div>
+        <br><br><a href="#gallery" class="btn btn-default btn-lg" role="button">
+          Ver galeria de fotos
+        </a>
+      </div>
+
+      <!-- CONTACT -->
+      <div id="contact" class="container-fluid bg-grey">
+        <h2 class="text-center">CONTATO</h2>
+        <div class="row">
+          <div class="col-sm-5">
+            <p><span class="glyphicon glyphicon-map-marker"></span> Brasilia, DF</p>
+            <p><span class="glyphicon glyphicon-phone"></span> +55 (61) 3107-2895</p>
+            <p><span class="glyphicon glyphicon-envelope"></span> petunbquimica@gmail.com</p>
+          </div>
+          <div class="col-sm-7 slideanim">
+            <form method="post" action="#contact">
+              <div class="row">
+                <div class="col-sm-6 form-group">
+                  <input
+                    class="form-control"
+                    id="name"
+                    name="name"
+                    placeholder="Nome"
+                    type="text"
+                    required
+                  />
+                </div>
+                <div class="col-sm-6 form-group">
+                  <input
+                    class="form-control"
+                    id="email"
+                    name="email"
+                    placeholder="Email"
+                    type="email"
+                    required
+                  />
+                </div>
+              </div>
+              <textarea
+                class="form-control"
+                id="comments"
+                name="message"
+                placeholder="Mensagem"
+                rows="5">
+              </textarea><br>
+              <div class="row">
+                <div class="col-sm-12 form-group">
+                  <button class="btn btn-default pull-right" type="submit">Enviar</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-sm-12 mapa">
+        <img src="img/map.png" class="img-responsive" alt="Mapa" />
+      </div>
+    </main>
+    <footer class="container-fluid text-center bg-white">
+      <a href="#myPage" title="Topo da página">
+        <span class="glyphicon glyphicon-chevron-up"></span>
+      </a>
+      <p class="text-muted">
+        Instituto de Química, Universidade de Brasília, Campus Universitário Darcy Ribeiro, Asa Norte,
+        Brasília. CEP 70.904-970
+      </p>
+      <p class="text-muted">
+        PET Química/UnB 2017. Todos os direitos reservados.
+      </p>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/base.js"></script>
   </body>
 </html>

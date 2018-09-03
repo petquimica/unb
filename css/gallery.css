@@ -1,0 +1,41 @@
+.gallery-img {
+  width: 250px;
+  height: 250px;
+  padding: 5px;
+  box-shadow: 3px 3px 15px grey;
+  margin: auto;
+  margin-bottom: 20px;
+}
+
+.gallery-folder {
+  width: 250px;
+  height: 250px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.container-fluid {
+  padding-bottom: 0;
+}
+
+.modal {
+  top: 65px;
+}
+
+.not-found {
+  padding-left: 10px;
+}
+
+.glyphicon {
+  padding-right: 10px !important;
+}
+
+/* Mobile */
+@media only screen and (max-width: 600px) {
+  .block {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    float: none !important;
+  }
+}
